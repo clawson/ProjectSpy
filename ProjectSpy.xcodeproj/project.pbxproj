@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16DFC7011AE45B3800265C43 /* PSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DFC7001AE45B3800265C43 /* PSColor.m */; };
 		16EFB20D1AE4514000614656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB20C1AE4514000614656 /* main.m */; };
 		16EFB2101AE4514000614656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB20F1AE4514000614656 /* AppDelegate.m */; };
-		16EFB2131AE4514000614656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB2121AE4514000614656 /* ViewController.m */; };
+		16EFB2131AE4514000614656 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB2121AE4514000614656 /* TabViewController.m */; };
 		16EFB2161AE4514000614656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EFB2141AE4514000614656 /* Main.storyboard */; };
 		16EFB2181AE4514000614656 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EFB2171AE4514000614656 /* Images.xcassets */; };
 		16EFB21B1AE4514000614656 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16EFB2191AE4514000614656 /* LaunchScreen.xib */; };
@@ -27,13 +28,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		16DFC6FF1AE45B3800265C43 /* PSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSColor.h; sourceTree = "<group>"; };
+		16DFC7001AE45B3800265C43 /* PSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSColor.m; sourceTree = "<group>"; };
 		16EFB2071AE4514000614656 /* ProjectSpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EFB20B1AE4514000614656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16EFB20C1AE4514000614656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16EFB20E1AE4514000614656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16EFB20F1AE4514000614656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16EFB2111AE4514000614656 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		16EFB2121AE4514000614656 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		16EFB2111AE4514000614656 /* TabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
+		16EFB2121AE4514000614656 /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		16EFB2151AE4514000614656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16EFB2171AE4514000614656 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		16EFB21A1AE4514000614656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,12 +86,14 @@
 			children = (
 				16EFB20E1AE4514000614656 /* AppDelegate.h */,
 				16EFB20F1AE4514000614656 /* AppDelegate.m */,
-				16EFB2111AE4514000614656 /* ViewController.h */,
-				16EFB2121AE4514000614656 /* ViewController.m */,
+				16EFB2111AE4514000614656 /* TabViewController.h */,
+				16EFB2121AE4514000614656 /* TabViewController.m */,
 				16EFB2141AE4514000614656 /* Main.storyboard */,
 				16EFB2171AE4514000614656 /* Images.xcassets */,
 				16EFB2191AE4514000614656 /* LaunchScreen.xib */,
 				16EFB20A1AE4514000614656 /* Supporting Files */,
+				16DFC6FF1AE45B3800265C43 /* PSColor.h */,
+				16DFC7001AE45B3800265C43 /* PSColor.m */,
 			);
 			path = ProjectSpy;
 			sourceTree = "<group>";
@@ -219,8 +224,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16EFB2131AE4514000614656 /* ViewController.m in Sources */,
+				16EFB2131AE4514000614656 /* TabViewController.m in Sources */,
 				16EFB2101AE4514000614656 /* AppDelegate.m in Sources */,
+				16DFC7011AE45B3800265C43 /* PSColor.m in Sources */,
 				16EFB20D1AE4514000614656 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +424,7 @@
 				16EFB22C1AE4514000614656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16EFB22D1AE4514000614656 /* Build configuration list for PBXNativeTarget "ProjectSpyTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				16EFB22F1AE4514000614656 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
