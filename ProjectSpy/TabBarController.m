@@ -6,20 +6,19 @@
 //  Copyright (c) 2015 Slacker Tools. All rights reserved.
 //
 
-#import "TabViewController.h"
+#import "TabBarController.h"
+#import "UIColor+PSColor.h"
 
-@interface TabViewController ()
+@interface TabBarController ()
 
 @end
 
-@implementation TabViewController
+@implementation TabBarController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    self.view.backgroundColor = [UIColor orangeColor];
-    
+        
 }
 
 - (void)didReceiveMemoryWarning {

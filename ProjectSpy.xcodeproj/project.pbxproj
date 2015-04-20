@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16DFC7011AE45B3800265C43 /* PSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DFC7001AE45B3800265C43 /* PSColor.m */; };
+		16DFC7011AE45B3800265C43 /* UIColor+PSColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DFC7001AE45B3800265C43 /* UIColor+PSColor.m */; };
+		16DFC7041AE471CF00265C43 /* ProjectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DFC7031AE471CF00265C43 /* ProjectViewController.m */; };
+		16DFC7071AE4729E00265C43 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DFC7061AE4729E00265C43 /* TimerViewController.m */; };
 		16EFB20D1AE4514000614656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB20C1AE4514000614656 /* main.m */; };
 		16EFB2101AE4514000614656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB20F1AE4514000614656 /* AppDelegate.m */; };
-		16EFB2131AE4514000614656 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB2121AE4514000614656 /* TabViewController.m */; };
+		16EFB2131AE4514000614656 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EFB2121AE4514000614656 /* TabBarController.m */; };
 		16EFB2161AE4514000614656 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16EFB2141AE4514000614656 /* Main.storyboard */; };
 		16EFB2181AE4514000614656 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16EFB2171AE4514000614656 /* Images.xcassets */; };
 		16EFB21B1AE4514000614656 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16EFB2191AE4514000614656 /* LaunchScreen.xib */; };
@@ -28,15 +30,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16DFC6FF1AE45B3800265C43 /* PSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSColor.h; sourceTree = "<group>"; };
-		16DFC7001AE45B3800265C43 /* PSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSColor.m; sourceTree = "<group>"; };
+		16DFC6FF1AE45B3800265C43 /* UIColor+PSColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PSColor.h"; sourceTree = "<group>"; };
+		16DFC7001AE45B3800265C43 /* UIColor+PSColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PSColor.m"; sourceTree = "<group>"; };
+		16DFC7021AE471CF00265C43 /* ProjectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectViewController.h; sourceTree = "<group>"; };
+		16DFC7031AE471CF00265C43 /* ProjectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectViewController.m; sourceTree = "<group>"; };
+		16DFC7051AE4729E00265C43 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		16DFC7061AE4729E00265C43 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
 		16EFB2071AE4514000614656 /* ProjectSpy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectSpy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16EFB20B1AE4514000614656 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16EFB20C1AE4514000614656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		16EFB20E1AE4514000614656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		16EFB20F1AE4514000614656 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16EFB2111AE4514000614656 /* TabViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
-		16EFB2121AE4514000614656 /* TabViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		16EFB2111AE4514000614656 /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		16EFB2121AE4514000614656 /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
 		16EFB2151AE4514000614656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16EFB2171AE4514000614656 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		16EFB21A1AE4514000614656 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -86,14 +92,18 @@
 			children = (
 				16EFB20E1AE4514000614656 /* AppDelegate.h */,
 				16EFB20F1AE4514000614656 /* AppDelegate.m */,
-				16EFB2111AE4514000614656 /* TabViewController.h */,
-				16EFB2121AE4514000614656 /* TabViewController.m */,
+				16EFB2111AE4514000614656 /* TabBarController.h */,
+				16EFB2121AE4514000614656 /* TabBarController.m */,
 				16EFB2141AE4514000614656 /* Main.storyboard */,
 				16EFB2171AE4514000614656 /* Images.xcassets */,
 				16EFB2191AE4514000614656 /* LaunchScreen.xib */,
 				16EFB20A1AE4514000614656 /* Supporting Files */,
-				16DFC6FF1AE45B3800265C43 /* PSColor.h */,
-				16DFC7001AE45B3800265C43 /* PSColor.m */,
+				16DFC6FF1AE45B3800265C43 /* UIColor+PSColor.h */,
+				16DFC7001AE45B3800265C43 /* UIColor+PSColor.m */,
+				16DFC7021AE471CF00265C43 /* ProjectViewController.h */,
+				16DFC7031AE471CF00265C43 /* ProjectViewController.m */,
+				16DFC7051AE4729E00265C43 /* TimerViewController.h */,
+				16DFC7061AE4729E00265C43 /* TimerViewController.m */,
 			);
 			path = ProjectSpy;
 			sourceTree = "<group>";
@@ -224,10 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16EFB2131AE4514000614656 /* TabViewController.m in Sources */,
+				16DFC7071AE4729E00265C43 /* TimerViewController.m in Sources */,
+				16EFB2131AE4514000614656 /* TabBarController.m in Sources */,
 				16EFB2101AE4514000614656 /* AppDelegate.m in Sources */,
-				16DFC7011AE45B3800265C43 /* PSColor.m in Sources */,
+				16DFC7011AE45B3800265C43 /* UIColor+PSColor.m in Sources */,
 				16EFB20D1AE4514000614656 /* main.m in Sources */,
+				16DFC7041AE471CF00265C43 /* ProjectViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 Slacker Tools. All rights reserved.
 //
 
-#import "PSColor.h"
+#import "UIColor+PSColor.h"
 
 static CGFloat const StandardTransparency = 1.0;
 
@@ -53,55 +53,55 @@ static CGFloat const StandardTransparency = 1.0;
 }
 
 + (UIColor *) psSecondaryOne3 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.216 green:0.439 blue:0 alpha:StandardTransparency];
 }
 
 + (UIColor *) psSecondaryOne4 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.145 green:0.298 blue:0 alpha:StandardTransparency];
 }
 
 #pragma mark - Secondary Colors (2)
 
 + (UIColor *) psSecondaryTwo0 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.588 green:0.196 blue:0.329 alpha:StandardTransparency];
 }
 
 + (UIColor *) psSecondaryTwo1 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.824 green:0.816 blue:0.82 alpha:StandardTransparency];
 }
 
 + (UIColor *) psSecondaryTwo2 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.745 green:0.518 blue:0.596 alpha:StandardTransparency];
 }
 
 + (UIColor *) psSecondaryTwo3 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.431 green:0 blue:0.145 alpha:StandardTransparency];
 }
 
 + (UIColor *) psSecondaryTwo4 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.294 green:0 blue:0.098 alpha:StandardTransparency];
 }
 
 #pragma mark - Complement Colors
 
 + (UIColor *) psComplement0 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.145 green:0.369 blue:0.412 alpha:StandardTransparency];
 }
 
 + (UIColor *) psComplement1 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.145 green:0.208 blue:0.216 alpha:StandardTransparency];
 }
 
 + (UIColor *) psComplement2 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.153 green:0.263 blue:0.282 alpha:StandardTransparency];
 }
 
 + (UIColor *) psComplement3 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.082 green:0.467 blue:0.537 alpha:StandardTransparency];
 }
 
 + (UIColor *) psComplement4 {
-    return [UIColor colorWithRed:0 green:0 blue:0 alpha:StandardTransparency];
+    return [UIColor colorWithRed:0.016 green:0.482 blue:0.569 alpha:StandardTransparency];
 }
 
 /*

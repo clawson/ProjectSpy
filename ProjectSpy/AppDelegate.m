@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-#import "TabViewController.h"
+#import "ProjectViewController.h"
+#import "TimerViewController.h"
+#import "TabBarController.h"
 
 @interface AppDelegate ()
 
@@ -21,8 +23,13 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
-    TabViewController *tabViewController = [TabViewController new];
-    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:tabViewController];
+    ProjectViewController *projectViewController = [ProjectViewController new];
+    TimerViewController *timerViewController = [TimerViewController new];
+
+    TabBarController *tabBarController = [TabBarController new];
+    tabBarController.viewControllers = @[projectViewController, timerViewController];
+    
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:tabBarController];
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
